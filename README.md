@@ -1,39 +1,41 @@
 # Aplicação para controle financeiro DinDin
 
-## Esta aplicação foi produzida no desafio o módulo 3 do curso de Desenvolvimento de software da Cubos Academy
+Esta aplicação foi desenvolvida no desafio do módulo 3 do curso de Desenvolvimento de Software da Cubos Academy. Ela é uma aplicação para controle financeiro pessoal, permitindo que o usuário adicione suas receitas e despesas, e acompanhe seu saldo.
 
-Para acessar a aplicação utilize este link: 
-<a href='web-app-dindin-71mg9pp6h-sergiofisio.vercel.app'> APP DINDIN</a>
+A aplicação foi escrita utilizando React e o backend foi desenvolvido em Node.js, com banco de dados relacional Postgres.
 
-Para acessar o backend desta aplicação você pode acessar o link abaixo:
+## Funcionalidades
 
-<a href='https://github.com/sergiofisio/server-app-dindin'> Backend da aplicação</a>
+- Cadastro de usuário
+- Login de usuário
+- Adição de receitas e despesas
+- Listagem de receitas e despesas
+- Edição e exclusão de receitas e despesas
+- Visualização do saldo do usuário
 
-<br>
-<br>
+## Acesso
 
-<center>
+A aplicação pode ser acessada através do link abaixo:
 
-## TELA DE CADASTRO
+- [APP DinDin](https://web-app-dindin-71mg9pp6h-sergiofisio.vercel.app/)
 
-<img src='.\src\assets\img\cadastro.png'>
+O backend da aplicação pode ser acessado através do link abaixo:
 
-<br>
-<br>
+- [Backend da aplicação](https://github.com/sergiofisio/server-app-dindin)
 
-## TELA DE LOGIN
-<img src='.\src\assets\img\login.png'>
+## Observações
 
-<br>
-<br>
+- A aplicação está online através do site web-app-dindin-6i15vpw1a-sergiofisio.vercel.app
+- O banco de dados está conectado à Heroku
 
-## DENTRO DO SISTEMA
-<img src='.\src\assets\img\sistema.png'>
+## Se quiser rodar a aplicação localmente você deve:
 
-<br>
-<br>
+Para executar o aplicativo localmente, siga os seguintes passos:
 
-## REALIZAR REGISTRO
-<img src='.\src\assets\img\adicionarRegistro.png'>
+1. Clone o repositório: git clone https://github.com/sergiofisio/web-app-dindin.git
 
-</center>
+2. Instale as dependências do projeto: npm ii
+
+3. Inicie o servidor de desenvolvimento: npm start
+
+4. Acesse o aplicativo no seu navegador: http://localhost:3000
