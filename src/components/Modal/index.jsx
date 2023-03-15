@@ -85,7 +85,9 @@ export default function Modal({
       setData("");
       setCategoria("");
       setAtualizacao(atualizacao + 1);
+
     } catch (error) {
+      console.log(error);
       if (descricao.length > 30) {
         toast.error("Não é permitida descrição com mais de 30 caracteres.", {
           position: toast.POSITION.TOP_RIGHT,
@@ -141,16 +143,17 @@ export default function Modal({
   useEffect(() => {
     const token = getItem("token");
     async function pegarInfoTransacao() {
-      const transacaoSelecionada = await axios.get(`/transacao/${transacao.current}`, {
+      const { data: { tipo, data, valor, descricao } } = await axios.get(`/transacao/${transacao.current}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       })
-      setTipo(transacaoSelecionada.data.tipo)
-      setData(transacaoSelecionada.data.data)
-      setValor(transacaoSelecionada.data.valor / 100)
-      setDescricao(transacaoSelecionada.data.descricao)
-      transacaoSelecionada.data.tipo === 'entrada' ? handleBotaoEntrada() : handleBotaoSaida()
+      console.log(data);
+      setTipo(tipo)
+      setData(data)
+      setValor(valor / 100)
+      setDescricao(descricao)
+      tipo === 'entrada' ? handleBotaoEntrada() : handleBotaoSaida()
     }
     async function obterCategorias() {
       const { data } = await axios.get('/categoria', {
