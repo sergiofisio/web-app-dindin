@@ -15,11 +15,11 @@ A aplicação foi escrita utilizando React e o backend foi desenvolvido em Node.
 
 A aplicação pode ser acessada através do link abaixo:
 
-- [APP DinDin](https://web-app-dindin-71mg9pp6h-sergiofisio.vercel.app/){:target="_blank"}
+- [APP DinDin](https://web-app-dindin-71mg9pp6h-sergiofisio.vercel.app/)
 
 O backend da aplicação pode ser acessado através do link abaixo:
 
-- [Backend da aplicação](https://github.com/sergiofisio/server-app-dindin){:target="_blank"}
+- [Backend da aplicação](https://github.com/sergiofisio/server-app-dindin)
 
 
 
