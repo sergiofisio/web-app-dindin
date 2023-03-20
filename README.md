@@ -13,15 +13,14 @@ A aplicação foi escrita utilizando React e o backend foi desenvolvido em Node.
 - Edição e exclusão de receitas e despesas
 - Visualização do saldo do usuário
 
-## Acesso
-
 A aplicação pode ser acessada através do link abaixo:
 
-- [APP DinDin](https://web-app-dindin-71mg9pp6h-sergiofisio.vercel.app/)
+- [APP DinDin](https://web-app-dindin-71mg9pp6h-sergiofisio.vercel.app/){:target="_blank"}
 
 O backend da aplicação pode ser acessado através do link abaixo:
 
-- [Backend da aplicação](https://github.com/sergiofisio/server-app-dindin)
+- [Backend da aplicação](https://github.com/sergiofisio/server-app-dindin){:target="_blank"}
+
 
 
 
