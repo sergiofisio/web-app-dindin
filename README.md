@@ -2,7 +2,7 @@
 
 Esta aplicação foi desenvolvida no desafio do módulo 3 do curso de Desenvolvimento de Software da Cubos Academy. Esta é uma aplicação para controle financeiro pessoal que permite que o usuário adicione suas receitas e despesas, e acompanhe seu saldo.
 
-A aplicação foi escrita utilizando React e o backend foi desenvolvido em Node.js, com banco de dados relacional Postgres.
+A aplicação foi escrita utilizando ReactJS, o backend foi desenvolvido em Node.js e o banco de dados utlizado foi  PostgresSQL, um banco relacional.
 
 ## Funcionalidades
 
