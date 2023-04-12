@@ -2,7 +2,7 @@ import axios from "axios";
 import { clearAll } from "../utils/storage";
 
 const axiosPrivate = axios.create({
-  baseURL: "https://aplicacao-dindin.onrender.com/",
+  baseURL: "https://aplicacao-dindin.onrender.com",
   timeout: 1000,
   headers: { "Content-Type": "application/json" },
 });
@@ -12,7 +12,7 @@ axiosPrivate.interceptors.response.use(
   async (error) => {
     if (error?.response?.status === 401) {
       setTimeout(() => {
-        window.location.replace("https://aplicacao-dindin.onrender.com/");
+        window.location.replace("https://aplicacao-dindin.onrender.com");
         clearAll();
       }, 1000);
     }
