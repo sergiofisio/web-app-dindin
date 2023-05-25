@@ -15,7 +15,7 @@ A aplicação foi escrita utilizando ReactJS, o backend foi desenvolvido em Node
 
 A aplicação pode ser acessada através do link abaixo:
 
-- [APP DinDin](https://web-app-dindin.vercel.app/){:target="_blank"}
+- [APP DinDin](https://web-app-dindin.vercel.app/){:target="_blank" rel="noopener"}
 
 O repositório com o cóigo do backend da aplicação pode ser acessado através do link abaixo:
 
